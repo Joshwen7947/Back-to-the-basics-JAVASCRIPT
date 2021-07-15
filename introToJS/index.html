@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">CoderScript</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input
+							class="form-control me-2"
+							type="search"
+							placeholder="Search"
+							aria-label="Search"
+						/>
+						<button class="btn btn-outline-success" type="submit">
+							Search
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+		<!-- 1. Create an additional remote.
+          2. Push to the other remote, other than the one you cloned. -->
+
+		<section
+			class="
+				d-flex
+				justify-content-center
+				align-items-center
+				flex-column
+				vh-100
+				pb-5
+				text-center
+			"
+			id="section"
+		>
+			<h1>CoderScript</h1>
+			<div id="change-text" class="container rounded border p-2 my-1">
+				Please change me after 3 seconds
+			</div>
+			<div id="change-count" class="container rounded border p-2 my-1">
+				Treo Troe 1 2 3 Increment me every second
+			</div>
+			<div id="change-color" class="container rounded border p-2 my-1">
+				Change my colors every 3 seconds
+			</div>
+			<div id="change-click" class="container rounded border p-2 my-1">
+				Click Count
+			</div>
+			<div id="change-hover" class="container rounded border p-2 my-1">
+				Hover Count
+			</div>
+			<div id="change-he-loves-me" class="container rounded border p-2 my-1">
+				Is it real love? <strong>CLICK ME</strong> to find out!
+			</div>
+			<div
+				id="change-to-current-date"
+				class="container rounded border p-2 my-1"
+			>
+				Show the current time when I'm clicked!
+			</div>
+			<div class="container rounded border p-2 my-1">
+				Put the windows width in my when the screen is resized
+				<div class="d-flex justify-content-around align-items-center">
+					<div id="change-to-current-width">Width: 0</div>
+					<div id="change-to-current-height">Height: 0</div>
+				</div>
+			</div>
+
+			<div class="container rounded border p-2 my-1">
+				<ol id="add-list-item">
+					<li>Add an html li when I'm clicked</li>
+				</ol>
+			</div>
+
+			<div id="change-to-url" class="container rounded border p-2 my-1">
+				Show the URL when I'm clicked
+			</div>
+		</section>
+		<footer class="footer mt-auto py-3 bg-light">
+			<div
+				class="container d-flex align-items-center justify-content-center"
+			></div>
+		</footer>
+		<script src="color.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>

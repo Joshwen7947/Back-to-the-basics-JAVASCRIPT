@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+}
+
+#section {
+  margin: auto;
+  text-align: center;
+}
+
+#section h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+#section .container {
+  border: 2px solid;
+  border-radius: 15px;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+/*# sourceMappingURL=styles.css.map */

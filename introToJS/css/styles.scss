@@ -1,0 +1,19 @@
+body {
+	min-height: 100vh;
+}
+
+#section {
+	margin: auto;
+	text-align: center;
+	h1 {
+		font-size: 3rem;
+		text-decoration: underline;
+	}
+	.container {
+		border: 2px solid;
+		border-radius: 15px;
+		padding: 20px;
+		width: 80%;
+		margin: auto;
+	}
+}
